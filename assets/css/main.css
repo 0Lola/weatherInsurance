@@ -3051,6 +3051,11 @@
 				#banner .flex div .service:hover h3{
 					color : #6cc091 ; 
 				}
+				#banner .flex div .service img{ 
+					width:35px;
+					margin-top:10%;
+					margin-bottom: 10%;
+				}
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 
 			#banner {
