@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://github.com/zxa011023/weatherInsurance/tree/master/css/ont-awesome.min.css);
+@import url(https://zxa011023.github.io/weatherInsurance/assets/css/ont-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
 
 /* Reset */
@@ -2952,7 +2952,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(https://github.com/zxa011023/weatherInsurance/blob/master/images/banner.jpg);
+		background-image: url(https://zxa011023.github.io/weatherInsurance/images/banner.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
