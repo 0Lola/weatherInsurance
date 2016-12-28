@@ -46,22 +46,16 @@
 						</tr>
 					</thead>
 					<tbody>
+						{{#loop}}
 						<tr>
-							<td><a href="info">Company 1</a></td>
-							<td>name</td>
-							<td>date</td>
-							<td>location</td>
-							<td></td>
-							<td></td>
+							<td><a href="info">{{company-name}}</a></td>
+							<td>{{insurance-name}}</td>
+							<td>{{insurance-date}}</td>
+							<td>{{insurance-location}}</td>
+							<td>{{insurance-fee}}</td>
+							<td>{{claim-amount}}</td>
 						</tr>
-						<tr>
-							<td><a href="info">Company 2</a></td>
-							<td>name</td>
-							<td>date</td>
-							<td>location</td>
-							<td></td>
-							<td></td>
-						</tr>
+						{{/loop}}
 					</tbody>
 				</table>
 			</div>
