@@ -1,8 +1,16 @@
-/*
-	Projection by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
+$(document).ready(function(){
+    var str,tmp,words = document.getElementsByTagName("TR").length;
+    for(var w =0;w<=words;w++){
+    str =document.getElementsByTagName("TD")[1+6*w].innerHTML;
+    var tmp =str.substring(0,5)+"******";
+    document.getElementsByTagName("TD")[1+6*w].innerHTML = tmp;
+    str =document.getElementsByTagName("A")[5+w].innerHTML;
+    var tmp =str.substring(0,8)+"...";
+    document.getElementsByTagName("A")[5+w].innerHTML = tmp;
+    str =document.getElementsByTagName("TD")[3+6*w].innerHTML;
+    var tmp =str.substring(0,5)+"...";
+    document.getElementsByTagName("TD")[3+6*w].innerHTML = tmp;}});
 
 (function($) {
 
