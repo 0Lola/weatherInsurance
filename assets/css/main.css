@@ -1945,7 +1945,7 @@
 		}
 
 /* Form */
-
+	form.check{margin:0;}
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -2542,6 +2542,16 @@
 
 /* Button */
 
+	input[type="submit"].view{
+		border-radius: 5px;
+		padding:0 10px 0 10px;
+		line-height: 2em;
+		font-weight: 200;
+		font-weight: bold;
+		height: 3em;
+		border:0.1px solid #6cc091;
+		box-shadow: none;
+	}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
